@@ -1,0 +1,73 @@
+{
+	"title": "GitProfile",
+	"author" : "kktoo",
+	"description": "git简要使用笔记",
+	"language": "zh-hans",
+	"links" : {
+		"sidebar" : {
+			"回到首页": "http://kktoo.com"
+		}
+	},
+	"plugins": [
+		"-lunr", "-search", "search-pro",
+		"back-to-top-button",
+		"chapter-fold",
+		"insert-logo",
+		"github",
+		"splitter",
+		"-sharing", "sharing-plus",
+		"pageview-count",
+		"hide-element",
+		"custom-favicon",
+		"donate",
+		"tbfed-pagefooter"
+	],
+	"pluginsConfig": {
+		"insert-logo": {
+			"url": "/images/logo.png",
+			"style": "background: none; max-height: 30px; min-height: 30px"
+		},
+		"github": {
+            "url": "https://github.com/kktoo"
+        },
+		 "sharing": {
+           "douban": false,
+           "facebook": false,
+           "google": false,
+           "hatenaBookmark": false,
+           "instapaper": false,
+           "line": false,
+           "linkedin": false,
+           "messenger": false,
+           "pocket": false,
+           "qq": true,
+           "qzone": true,
+           "stumbleupon": false,
+           "twitter": false,
+           "viber": false,
+           "vk": false,
+           "weibo": true,
+           "whatsapp": false,
+           "all": [
+               "douban", "weibo", "qq", "qzone"
+           ]
+		},
+		"hide-element": {
+			"elements": [".gitbook-link"]
+		},
+		"favicon": "./images/favicon.ico",
+		"donate": {
+            "wechat": "http://kktoo.com/wp-content/uploads/2019/03/qrcode_wx.jpg",
+            "alipay": "http://kktoo.com/wp-content/uploads/2019/03/qrcode_zfb.jpg",
+            "title": "有收获可以请作者喝咖啡",
+            "button": "赏",
+            "alipayText": "谢谢客官打赏",
+            "wechatText": "感谢客官打赏"
+        },
+		"tbfed-pagefooter": {
+            "copyright":"&copy kktoo.com 2019",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        }
+	}
+}
