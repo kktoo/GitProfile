@@ -14,3 +14,7 @@ git svn使用git svn dcommit
 **更新**
 类似git rebase
 git svn使用git svn rebase
+
+**更新所有分支**
+类似git fetch --all
+git svn使用git svn fetch --all
