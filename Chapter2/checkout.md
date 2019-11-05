@@ -2,6 +2,9 @@
 
 ## 检出
 
+**放弃本地某个文件的修改**
+git checkout 文件名
+
 **切换分支**
 例如有分支develop和hotfix，当前在develop分支上，要切换到hotfix分支上，
 git checkout hotfix
