@@ -29,3 +29,27 @@ git commit -m 'update .gitignore'
 使用 ^ 向上移动 1 个提交记录
 使用 ~<num> 向上移动多个提交记录，如 ~3
 git checkout HEAD^
+
+---
+
+git设置用户名邮箱
+
+#### Git全局配置和单个仓库的用户名邮箱配置
+
+```
+$ git config --global user.name "github’s Name"
+$ git config --global user.email "github@xx.com"
+$ git config --list
+```
+
+#### 为项目单独配置用户名、邮箱
+
+```
+$ git config user.name "gitlab’s Name"
+$ git config user.email "gitlab@xx.com"
+$ git config --list
+```
+
+#### git config --list 查看当前配置
+
+- 在当前项目下面查看的配置是全局配置+当前项目的配置, 当前项目的配置优先全局配置生效
