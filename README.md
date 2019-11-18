@@ -1,3 +1,3 @@
 # Introduction
 
-git笔记简要
+git简要笔记
