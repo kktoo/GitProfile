@@ -35,5 +35,5 @@
     * [第18章：remote](Chapter2/remote.md)
     * [第19章：reflog](Chapter2/reflog.md)
     * [第20章：fetch](Chapter2/fetch.md)
-* [第三篇 妥协方案：使用git svn](Chapter3/README.md)
+* [第三篇 使用git svn过渡](Chapter3/README.md)
 
