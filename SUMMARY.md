@@ -2,9 +2,9 @@
 
 * [前言](README.md)
 * [第一篇 常用操作](Chapter1/README.md)
-    * [第1章：分支](Chapter1/Section1/operation_branch.md)
+    * [第1章：操作分支](Chapter1/Section1/operation_branch.md)
     * [第2章：更新](Chapter1/Section2/README.md)
-    * [第3章：打tag](Chapter1/Section3/README.md)
+    * [第3章：打标签](Chapter1/Section3/operation_tag.md)
     * [第4章：准备工作目录](Chapter1/Section4/README.md)
     * [第5章：其他](Chapter1/Section5/README.md)
 * [第二篇 常用命令](Chapter2/README.md)
