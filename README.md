@@ -1,8 +1,12 @@
 # Introduction
 
-git简要笔记
+本笔记总结最常用的一些操作、命令和通识。
+
+我们不可能每个人都做git专家，掌握最常用的知识，快速的用起来以后，再说逐步精进和深入的事也不迟。
+
+所以，先在这里掌握核心吧。
 
 常用缩略词
-Chapter
-Section
-Unit
+* Chapter
+* Section
+* Unit
