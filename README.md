@@ -1,6 +1,6 @@
 # Introduction
 
-# Git精要笔记	GitProfile
+# Git简要笔记	GitProfile
 
 本笔记总结使用Git中最常用的一些操作、命令和通识。
 
