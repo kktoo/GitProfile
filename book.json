@@ -17,7 +17,6 @@
 		"splitter",
 		"-sharing", "sharing-plus",
 		"pageview-count",
-		"hide-element",
 		"custom-favicon",
 		"donate",
 		"tbfed-pagefooter"
@@ -51,9 +50,6 @@
            "all": [
                "douban", "weibo", "qq", "qzone"
            ]
-		},
-		"hide-element": {
-			"elements": [".gitbook-link"]
 		},
 		"favicon": "./images/favicon.ico",
 		"donate": {
