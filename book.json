@@ -17,9 +17,11 @@
 		"splitter",
 		"-sharing", "sharing-plus",
 		"pageview-count",
+        "hide-element",
 		"custom-favicon",
 		"donate",
-		"tbfed-pagefooter"
+		"tbfed-pagefooter",
+		"3-ba"
 	],
 	"pluginsConfig": {
 		"insert-logo": {
@@ -51,6 +53,9 @@
                "douban", "weibo", "qq"
            ]
 		},
+        "hide-element": {
+			"elements": [".gitbook-link"]
+		},
 		"favicon": "./images/favicon.ico",
 		"donate": {
             "wechat": "http://kktoo.com/wp-content/uploads/2019/03/qrcode_wx.jpg",
@@ -64,6 +69,9 @@
             "copyright":"&copy kktoo.com 2019",
             "modify_label": "该文件修订时间：",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
+		},
+		"3-ba": {
+            "token": "000000000"
         }
 	}
 }
