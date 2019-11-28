@@ -7,7 +7,8 @@
     * [第3章：打标签](Chapter1/Section3/operation_tag.md)
     * [第4章：准备工作目录](Chapter1/Section4/README.md)
     * [第5章：撤销操作](Chapter1/Section5/operation_reset.md)
-    * [第6章：其他](Chapter1/Section5/operation_other.md)
+    * [第6章：子模块](Chapter1/Section6/operation_submodule.md)
+    * [第7章：其他](Chapter1/operation_other.md)
 * [第二篇 常用命令](Chapter2/README.md)
     * [第1章：init](Chapter2/init.md)
     * [第2章：clone](Chapter2/clone.md)
@@ -30,4 +31,7 @@
     * [第19章：reflog](Chapter2/reflog.md)
     * [第20章：fetch](Chapter2/fetch.md)
 * [第三篇 使用git svn过渡](Chapter3/README.md)
+* [第四篇 工作流](Chapter4/README.md)
+* [第五篇 规范](Chapter5/README.md)
+* [第六篇 一些奇技淫巧](Chapter6/README.md)
 
