@@ -55,10 +55,10 @@
 		"donate": {
             "wechat": "http://kktoo.com/wp-content/uploads/2019/03/qrcode_wx.jpg",
             "alipay": "http://kktoo.com/wp-content/uploads/2019/03/qrcode_zfb.jpg",
-            "title": "如果有收获可以请作者喝咖啡",
+            "title": "有收获 再赞赏",
             "button": "赏",
-            "alipayText": "谢谢客官打赏",
-            "wechatText": "感谢客官打赏"
+            "alipayText": "谢谢客官",
+            "wechatText": "谢谢客官"
         },
 		"tbfed-pagefooter": {
             "copyright":"&copy kktoo.com 2019",
