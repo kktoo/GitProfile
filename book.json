@@ -5,7 +5,7 @@
 	"language": "zh-hans",
 	"links" : {
 		"sidebar" : {
-			"回到首页": "http://kktoo.com"
+			"回主站": "http://kktoo.com"
 		}
 	},
 	"plugins": [
