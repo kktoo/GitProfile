@@ -40,7 +40,7 @@
            "messenger": false,
            "pocket": false,
            "qq": true,
-           "qzone": true,
+           "qzone": false,
            "stumbleupon": false,
            "twitter": false,
            "viber": false,
@@ -48,7 +48,7 @@
            "weibo": true,
            "whatsapp": false,
            "all": [
-               "douban", "weibo", "qq", "qzone"
+               "douban", "weibo", "qq"
            ]
 		},
 		"favicon": "./images/favicon.ico",
