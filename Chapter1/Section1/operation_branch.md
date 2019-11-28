@@ -83,6 +83,7 @@ git branch -m old_branch new_branch
 git push origin :old_branch
 git push origin local_branch:new_branch
 ```
+
 ### 第5节：切换分支
 
 切换本地分支
