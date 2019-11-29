@@ -1,2 +1,5 @@
 # 保存源文件的目录，比如psd文件
 _resource
+
+# git文件
+.gitignore
