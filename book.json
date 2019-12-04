@@ -26,7 +26,7 @@
 	"pluginsConfig": {
 		"insert-logo": {
 			"url": "http://kktoo.com/wiki/gitprofile/images/logo.png",
-			"style": "background: none; max-height: 30px; min-height: 30px"
+			"style": "background: none; max-height: 180px; min-height: 180px"
 		},
 		"github": {
             "url": "https://github.com/kktoo"
