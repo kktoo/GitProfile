@@ -33,5 +33,5 @@
 * [第三篇 使用git svn过渡](Chapter3/README.md)
 * [第四篇 工作流](Chapter4/README.md)
 * [第五篇 规范](Chapter5/README.md)
-* [第六篇 一些奇技淫巧](Chapter6/README.md)
+* [第六篇 一些技巧](Chapter6/README.md)
 
