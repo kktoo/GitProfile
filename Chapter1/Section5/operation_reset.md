@@ -6,7 +6,10 @@
 1. 本地已经commit，还没有push
 1. 已经push到远程服务器
 
-撤销操作主要是使用checkout和reset命令
+撤销操作主要是使用下列命令：
+- [checkout命令](http://kktoo.com/wiki/gitprofile/Chapter2/checkout.html)
+- [reset命令](http://kktoo.com/wiki/gitprofile/Chapter2/reset.html)
+- [clean命令](http://kktoo.com/wiki/gitprofile/Chapter2/clean.html)
 
 ### 撤销文件修改
 
@@ -47,7 +50,10 @@ git add src/
 git rm -r src/ –cached 
 ```
 由于目录已经添加到git 暂存（stage）中了，所以需要加--cached参数
-
+如果有增加文件，并且还没有被tracked，可以使用clean命令清理
+```
+git clean -df
+```
 ### 撤销commit操作
 
 <u>*本地已经commit，还没有push*</u>
