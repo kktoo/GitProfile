@@ -9,3 +9,23 @@ git pull --rebase后代码丢失，如何找回？
 4. 使用git reset --hard bed6d6916
 这样就找回之前的代码啦\(^o^)/~
 
+### 查看帮助信息
+人脑记忆力是有限的，git命令很多，加上参数就更多了，难免有记不清的时候，这时候可以用-h参数查看对应命令的帮助信息。
+比如查看git clean命令的帮助信息：
+```shell
+git clean -h
+```
+得到帮助信息如下：
+```shell
+usage: git clean [-d] [-f] [-i] [-n] [-q] [-e <pattern>] [-x | -X] [--] <paths>...
+
+    -q, --quiet           do not print names of files removed
+    -n, --dry-run         dry run
+    -f, --force           force
+    -i, --interactive     interactive cleaning
+    -d                    remove whole directories
+    -e, --exclude <pattern>
+                          add <pattern> to ignore rules
+    -x                    remove ignored files, too
+    -X                    remove only ignored files
+```
