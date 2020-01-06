@@ -23,30 +23,40 @@ git branch -vv
 
 ### 第2节：创建分支
 
-创建本地分支
+**创建本地分支**
 *例如：创建一个本地分支，名为xxx*
+
 ```
 git checkout -b xxx
 ```
 
-创建本地分支，链接远程分支
+**创建本地分支，联接远程分支**
 *例如：本地分支名为xxx，并和远程分支develop_xxx链接*
 ```
 git checkout -b xxx origin/develop_xxx
 ```
 
-把本地分支推送到远程
+**把本地分支推送到远程**
 *例如：本地分支名为abc，远程分支名为develop_abc*
 ```
 git push origin abc:develop_abc
 ```
 
-创建远程分支
+**创建远程分支**
 *例如：本地分支名为abc，远程分支名为feature_abc*
 先创建本地分支，再推送到远程
 ```
 git checkout -b abc
 git push origin abc:feature_abc
+```
+
+**从当前分支的某一个commit创建新分支：**
+git checkout commitId -b 本地新branchName
+*例如从sha值为d3ac8cc2的commit id开始，创建新分支fitABC，并推送到远程，同时建立本地分支和远程分支的关联：*
+
+```shell
+git checkout d3ac8cc2 -b fitABC
+git push --set-upstream origin fitABC
 ```
 
 ### 第3节：删除分支
@@ -70,11 +80,14 @@ git push origin  :develop_xxx
 
 ### 第4节：修改分支名称
 
-修改本地分支名称
+**修改本地分支名称**
 ```
 git branch -m old_branch new_branch
 ```
-修改远程分支名称，步骤：
+**修改远程分支名称**
+
+步骤：
+
    1. 修改本地分支名
    1. 删除远程分支
    1. 将本地分支推送到远程创建新的远程分支
@@ -138,7 +151,12 @@ git merge --no-ff develop
 git push origin master
 ```
 
-**合并某个提交，使用cherry-pick**
+**合并某个分支某个commit 到当前分支**
+假设分支A和分支B, 我们想把A上的某个commit 点合并到B分支上。
+步骤：
+1. 先拿到commit id
+2. 切换当前分支为分支B
+3. 使用cherry-pick命令来完成单点合并。
 ```
 git cherry-pick 0128660c08e325d410cb845616af355c0c19c6fe
 ```
