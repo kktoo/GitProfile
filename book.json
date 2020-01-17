@@ -21,8 +21,24 @@
 		"custom-favicon",
 		"donate",
 		"tbfed-pagefooter",
-		"3-ba"
+		"3-ba",
+		"theme-fexa",
+		"-fontsettings",
+		"copy-code-button",
+		"cuav-chapters",
+		"heading-anchors"
 	],
+	"variables": {
+        "themeFexa":{
+            "nav":[
+                {
+                    "url":"http://www.kktoo.com",
+                    "target":"_self",
+                    "name": "回主站"
+                }
+            ]
+        }
+    },
 	"pluginsConfig": {
 		"insert-logo": {
 			"url": "http://www.kktoo.com/wiki/gitprofile/images/logo.png",
@@ -72,6 +88,11 @@
 		},
 		"3-ba": {
             "token": "ca5dfde54fb9d09988aedd02fdcc4b02"
+        },
+		"theme-fexa":{
+            "search-placeholder":"输入关键字搜索",
+            "logo":"./images/logo.png",
+            "favicon": "./images/favicon.ico"
         }
 	}
 }
