@@ -1,13 +1,8 @@
 {
-	"title": "GitProfile",
-	"author" : "kktoo",
-	"description": "git简要笔记",
+	"title": "Git简要笔记",
+	"author" : "kktoo.com",
+	"description": "Git简要笔记",
 	"language": "zh-hans",
-	"links" : {
-		"sidebar" : {
-			"回主站": "http://www.kktoo.com"
-		}
-	},
 	"plugins": [
 		"-lunr", "-search", "search-pro",
 		"back-to-top-button",
@@ -17,7 +12,6 @@
 		"splitter",
 		"-sharing", "sharing-plus",
 		"pageview-count",
-        "hide-element",
 		"custom-favicon",
 		"donate",
 		"tbfed-pagefooter",
@@ -30,11 +24,13 @@
 	],
 	"variables": {
         "themeFexa":{
+			"showHome": true,
+            "showNavigator": true,
             "nav":[
                 {
                     "url":"http://www.kktoo.com",
                     "target":"_self",
-                    "name": "回主站"
+                    "name": "返回主站"
                 }
             ]
         }
@@ -69,9 +65,6 @@
                "douban", "weibo", "qq"
            ]
 		},
-        "hide-element": {
-			"elements": [".gitbook-link"]
-		},
 		"favicon": "./images/favicon.ico",
 		"donate": {
             "wechat": "http://www.kktoo.com/wp-content/uploads/2019/03/qrcode_wx.jpg",
@@ -91,8 +84,8 @@
         },
 		"theme-fexa":{
             "search-placeholder":"输入关键字搜索",
-            "logo":"./images/logo.png",
-            "favicon": "./images/favicon.ico"
+            "logo":"./images/logo_home.png",
+            "favicon": "http://www.kktoo.com/favicon.ico"
         }
 	}
 }
