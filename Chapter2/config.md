@@ -1,15 +1,24 @@
 # 第17章：config
 
-#### 配置文件级别：
+## 配置文件级别：
 - local 当前项目级别
 - global 当前系统用户级别
 - system 系统级别
 
-#### 配置文件优先级：
+## 配置文件优先级：
 配置文件的配置项可以重复，优先级关系从大到小：
 当前项目级别 > 当前系统用户级别 > 系统级别
 
-#### 查看配置
+## 配置文件的路径：
+**windows系统**
+- 全局配置文件通常在C:\User\Administrator\.gitconfig文件中，具体路径，大家根据自己的系统盘符和用户名略作调整。
+- 局部配置文件在隐藏目录.git下的config文件
+
+**mac系统**
+- 全局配置文件在登录用户的根目录下，是隐藏文件
+- 局部配置文件在隐藏目录.git下的config文件
+
+## 查看配置
 ```
 git config --list
 ```
@@ -49,7 +58,7 @@ git config user.email
 git config --get user.name
 ```
 
-#### 设置用户名和邮箱
+## 设置用户名和邮箱
 
 **Git全局配置和单个仓库的用户名邮箱配置**
 ```
@@ -63,7 +72,7 @@ git config user.name "gitlab’s Name"
 git config user.email "gitlab@xx.com"
 ```
 
-#### 常用配置项
+## 常用配置项
 
 除了用户名和邮箱外，还以有以下常用配置项
 
