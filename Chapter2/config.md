@@ -11,10 +11,11 @@
 
 ## 配置文件的路径：
 **windows系统**
-- 全局配置文件通常在C:\User\Administrator\.gitconfig文件中，具体路径，大家根据自己的系统盘符和用户名略作调整。
+- 全局配置文件通常在C:\User\Administrator\路径下的.gitconfig文件中，具体路径，大家根据自己的系统盘符和用户名略作调整。
 - 局部配置文件在隐藏目录.git下的config文件
 
 **mac系统**
+
 - 全局配置文件在登录用户的根目录下，是隐藏文件
 - 局部配置文件在隐藏目录.git下的config文件
 
