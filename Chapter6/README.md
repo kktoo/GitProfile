@@ -127,3 +127,21 @@ http://www.kktoo.com/wiki/gitprofile/Chapter2/config.html?h=config
 可以参考下ohmyzsh的git别名是如何设置的：
 https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet#git
 
+
+
+## 什么时候可以使用强制push？
+
+强制push的骂名由来已久：**git push -f**
+
+存在即合理，强制push也是有价值的，git不会无缘无故设计这么个指令。
+
+那到底什么时候可以使用git push -f呢？
+
+- 把密码等隐私文件入库了
+- 把病毒或者有恶意的文件入库了
+
+强制push的副作用：
+- 篡改历史
+- 其他协作人员，会发现突然没法正常pull和push了
+- 集成了版本控制系统的其他系统会懵逼，比如发布系统和ci，会不知道该如何处理
+
