@@ -71,8 +71,8 @@
             "alipay": "http://www.kktoo.com/wp-content/uploads/2019/03/qrcode_zfb.jpg",
             "title": "有收获 再赞赏",
             "button": "赏",
-            "alipayText": "谢谢客官",
-            "wechatText": "谢谢客官"
+            "alipayText": "支付宝赏",
+            "wechatText": "微信打赏"
         },
 		"tbfed-pagefooter": {
             "copyright":"&copy kktoo.com 2019",
