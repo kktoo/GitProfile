@@ -28,7 +28,7 @@
             "showNavigator": true,
             "nav":[
                 {
-                    "url":"http://www.kktoo.com",
+                    "url":"https://www.kktoo.com",
                     "target":"_self",
                     "name": "返回主站"
                 }
@@ -37,7 +37,7 @@
     },
 	"pluginsConfig": {
 		"insert-logo": {
-			"url": "http://www.kktoo.com/wiki/gitprofile/images/logo.png",
+			"url": "https://www.kktoo.com/wiki/gitprofile/images/logo.png",
 			"style": "background: none; max-height: 180px; min-height: 180px"
 		},
 		"github": {
@@ -67,8 +67,8 @@
 		},
 		"favicon": "./images/favicon.ico",
 		"donate": {
-            "wechat": "http://www.kktoo.com/wp-content/uploads/2019/03/qrcode_wx.jpg",
-            "alipay": "http://www.kktoo.com/wp-content/uploads/2019/03/qrcode_zfb.jpg",
+            "wechat": "https://www.kktoo.com/wp-content/uploads/2019/03/qrcode_wx.jpg",
+            "alipay": "https://www.kktoo.com/wp-content/uploads/2019/03/qrcode_zfb.jpg",
             "title": "有收获 再赞赏",
             "button": "赏",
             "alipayText": "支付宝赏",
@@ -85,7 +85,7 @@
 		"theme-fexa":{
             "search-placeholder":"输入关键字搜索",
             "logo":"./images/logo_home.png",
-            "favicon": "http://www.kktoo.com/favicon.ico"
+            "favicon": "https://www.kktoo.com/favicon.ico"
         }
 	}
 }
