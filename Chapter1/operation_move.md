@@ -1,6 +1,30 @@
-# 第7章：迁移Git仓库
+# 第7章：仓库操作
 
-## 迁移git仓库带commit记录
+## 7.1 快速初始化仓库
+
+### 使用命令行创建仓库
+
+如果您还没有任何代码， 可以通过命令行工具创建一个全新的 Git 仓库并初始化到本项目仓库中。
+
+```shell
+git clone https://xxx01.git
+cd xxx01
+echo "# 演示" >> README.md
+git add README.md
+git commit -m "首次创建"
+git push -u origin master
+```
+
+### 使用命令行推送已存在的仓库
+
+如果您已有一个 Git 仓库， 可以通过命令行工具将其直接推送到本仓库中。
+
+```shell
+git remote add origin https://xxx.git
+git push -u origin master
+```
+
+## 7.2 迁移git仓库带commit记录
 
 迁移git仓库，不仅将所有代码迁移到新的仓库，而且保留所有的commit记录。
 举例：
