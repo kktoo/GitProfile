@@ -36,4 +36,10 @@
 	* [第1章：分支模型](Chapter4/branching_model.md)
 * [第五篇 规范](Chapter5/README.md)
 * [第六篇 一些技巧](Chapter6/README.md)
+	* [区分目录大小写](Chapter6/ignorecase.md)
+	* [只拉取仓库的部分目录内容](Chapter6/sparse_clone.md)
+	* [别名的使用](Chapter6/alias.md)
+	* [什么时候可以强制push](Chapter6/force_push.md)
+	* [关于gitignore文件](Chapter6/gitignore.md)
+	* [使用二分法查找错误](Chapter6/bisect.md)
 
